@@ -1,0 +1,33 @@
+#+title: Emacs shortcuts for beginners
+#+author: Xianming
+C-x means: hold Control and x at the same time
+M-x means: type escape (left-top on the keyboard) then x
+* Starting Emacs
+- start emacs: emacs -nw
+  
+* Exiting Emacs
+- suspend emacs: C-z
+- restore suspended emacs: fg
+- exit emacs: C-x C-c
+
+* Files
+- read a file: C-x C-f <type filename>
+- save a file: C-x C-s
+
+* Cancel
+- abort command: C-g
+- undo: C-_
+  
+* Windows
+- split the screen to two horizontal windows: C-x 3
+- split the screen to two vertical windows: C-x 2
+- hide current window: C-x 0
+- move the cursor across windows: C-x o
+
+* Cut and Paste
+- cut(kill) a line: C-k
+- paste(yank) a line: C-y
+
+* Search
+- search forward: C-s <type the keyword>
+- search backward: C-r <type the keyword>
